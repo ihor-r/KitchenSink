@@ -117,7 +117,7 @@ function btClient() {
             btAdapter.addEventListener('discoveryfinished', function(devices) {
                 var row, title,
                     tableData = [],
-                    addrs = {};
+                    addrs = {},
                     i = 0, 
                     length = devices.length;
                 
